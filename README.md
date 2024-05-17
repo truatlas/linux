@@ -11,7 +11,7 @@ Some tips for linux
    _error: write /dev/stdout: permission denied_
 for example:
 >kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 --dry-run=client -o yaml > webserver.yaml  
->error: write /dev/stdout: permission denied
+>**error: write /dev/stdout: permission denied**
 
 problem solution:
 ```
