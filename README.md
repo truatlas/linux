@@ -10,8 +10,8 @@ Some tips for linux
 2. In Ubuntu get error kubectl permission denied  
    _error: write /dev/stdout: permission denied_
 for example:
-```kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 --dry-run=client -o yaml > webserver.yaml  
-error: write /dev/stdout: permission denied```
+>kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 --dry-run=client -o yaml > webserver.yaml  
+>error: write /dev/stdout: permission denied
 
 problem solution:
 ```
