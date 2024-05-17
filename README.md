@@ -15,6 +15,7 @@ for example:
 
 problem solution:
 ```
-kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 --dry-run=client -o yaml > >(cat > webserver.yaml)
+kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 --dry-run=client \
+-o yaml > >(cat > webserver.yaml)
 ```  
   
