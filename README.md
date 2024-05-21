@@ -20,5 +20,5 @@ kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 
 ```  
   
 3. Uptime Kuma — free monitoring server.  
-   HTTP(s)/TCP/Ping/DNS Record/Push/Steam Game Server/Docker
+   HTTP(s)/TCP/Ping/DNS Record/Push/Steam Game Server/Docker  
    Can send messages to Telegram, Discord, Gotify, Slack, Pushover, Email (SMTP)  
