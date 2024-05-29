@@ -23,4 +23,6 @@ kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 
    HTTP(s)/TCP/Ping/DNS Record/Push/Steam Game Server/Docker  
    Can send messages to Telegram, Discord, Gotify, Slack, Pushover, Email (SMTP)  
 
-4. OpenTofu is a fork of Terraform that is open source, community-driven, and managed by the Linux Foundation.  
+4. OpenTofu is a fork of Terraform that is open source, community-driven, and managed by the Linux Foundation.
+   
+5. **Ventoy** is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files
