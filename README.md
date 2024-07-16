@@ -28,4 +28,5 @@ kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 
 5. **Ventoy** is an open source tool to create bootable USB drive for ISO/WIM/IMG/VHD(x)/EFI files
 6. **Talos** was made for bare-metal K8s  
 7. If your Proxmox is too slow - just add _noatime_ into your /etc/fstab
-8.   
+8. Free smtp relay https://www.mailgun.com for 100 emails per day.
+9.     
