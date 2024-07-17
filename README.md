@@ -29,4 +29,5 @@ kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 
 6. **Talos** was made for bare-metal K8s  
 7. If your Proxmox is too slow - just add _noatime_ into your /etc/fstab
 8. Free smtp relay https://www.mailgun.com for 100 emails per day.
-9.     
+9. Network Policy Viewer Kubernetes  from yaml https://orca.tufin.io/netpol/
+10.   
