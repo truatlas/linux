@@ -30,4 +30,5 @@ kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80 
 7. If your Proxmox is too slow - just add _noatime_ into your /etc/fstab
 8. Free smtp relay https://www.mailgun.com for 100 emails per day.
 9. Network Policy Viewer Kubernetes  from yaml https://orca.tufin.io/netpol/
-10.   
+10.  Example how to deploy k8s on Hetzner with Talos and Terraform: https://github.com/masterbpro/mbrc
+11.    
